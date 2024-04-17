@@ -15,6 +15,13 @@ killall Dock
 
 Source: https://superuser.com/a/1802693
 
+### Re-open Chrome windows across spaces
+
+```
+defaults write com.google.Chrome NSWindowRestoresWorkspaceAtLaunch -bool YES
+```
+
+Source: https://superuser.com/a/1490087/866211
 
 ### Basic Tooling:
 
@@ -26,6 +33,7 @@ brew install --cask dash
 brew install --cask spotify
 brew install --cask notion
 brew install --cask vlc
+brew install --cask pulsar
 brew install ffmpeg
 brew install bat
 brew install ripgrep
