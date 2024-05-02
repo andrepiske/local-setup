@@ -35,6 +35,7 @@ brew install --cask notion
 brew install --cask vlc
 brew install --cask pulsar
 brew install --cask imageoptim
+brew install git
 brew install netcat
 brew install ffmpeg
 brew install bat
