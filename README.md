@@ -15,13 +15,19 @@ killall Dock
 
 Source: https://superuser.com/a/1802693
 
-### Re-open Chrome windows across spaces
+### Re-open Chrome/Brave windows across spaces
 
 ```
 defaults write com.google.Chrome NSWindowRestoresWorkspaceAtLaunch -bool YES
+defaults write org.chromium.Chromium NSWindowRestoresWorkspaceAtLaunch -bool YES
+defaults write com.google.Chrome.canary NSWindowRestoresWorkspaceAtLaunch -bool YES
+defaults write com.brave.Browser NSWindowRestoresWorkspaceAtLaunch -bool YES
 ```
 
-Source: https://superuser.com/a/1490087/866211
+Source:
+
+- https://superuser.com/a/1490087/866211
+- https://github.com/brave/brave-browser/issues/7270
 
 ### Basic Tooling:
 

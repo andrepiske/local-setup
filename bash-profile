@@ -1,0 +1,48 @@
+# Part of .bash_profile:
+
+# Homebrew
+#
+export HOMEBREW_NO_AUTO_UPDATE=1
+export HOMEBREW_NO_INSTALL_CLEANUP=1
+export HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK=1
+
+# Bash configs and colors
+
+# export HISTCONTROL=ignoreboth:erasedups
+export HISTSIZE=20000
+export HISTFILESIZE=-1
+export EDITOR=nvim
+export PAGER=
+# export PS1='\u@\h \w \$ '
+export PS1='\w \$ '
+export CLICOLOR=1
+export LSCOLORS=exfxcxdxbxegedabagacad
+
+# Ruby/Rails
+
+export DISABLE_SPRING=true
+
+
+# Git aliases
+
+alias gco="git checkout"
+alias gg="git status"
+alias gl="PAGER=less git log"
+alias gpu='git push'
+alias gput='git push -u origin HEAD'
+alias gputw='git push -u origin HEAD && gh pr create -w'
+alias gcd="git diff --cached"
+
+alias be="bundle exec"
+alias brkt="bin/rake test"
+alias wc-l="wc -l"
+alias ssho="ssh -o UserKnownHostsFile=/dev/null"
+alias baty="bat -plyaml"
+alias ll="eza --icons -lh"
+
+
+
+function touchp {
+  mkdir -p $(dirname $1)
+  touch $1
+}
