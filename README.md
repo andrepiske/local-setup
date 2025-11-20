@@ -61,3 +61,7 @@ brew install gh
 brew install colima
 ```
 
+### Apple Music is garbage
+
+See [remove-apple-music.md](remove-apple-music.md)
+
