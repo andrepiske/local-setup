@@ -46,7 +46,7 @@ brew install netcat
 brew install ffmpeg
 brew install bat
 brew install ripgrep
-brew install the_silver_searcher
+brew install step
 brew install httpie
 brew install openssl@1.1 # check version
 brew install openssl@3 # check version
