@@ -15,6 +15,13 @@ killall Dock
 
 Source: https://superuser.com/a/1802693
 
+### Hide Spotlight menu icon
+
+```
+defaults write com.apple.Spotlight MenuItemHidden -int 1
+killall SystemUIServer
+```
+
 ### Re-open Chrome/Brave windows across spaces
 
 ```
