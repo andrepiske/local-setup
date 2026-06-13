@@ -57,14 +57,15 @@ brew install step
 brew install httpie
 brew install openssl@1.1 # check version
 brew install openssl@3 # check version
+brew install awscli
+brew install gh
+brew install fzf
 ```
 
 Optional:
 
 ```
 brew install circleci
-brew install awscli
-brew install gh
 brew install colima
 ```
 
